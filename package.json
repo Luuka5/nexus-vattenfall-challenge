@@ -12,8 +12,12 @@
     "next": "12.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+<<<<<<< HEAD
     "react-range": "^1.8.14",
     "webpack-dev-server": "^4.11.0"
+=======
+    "zustand": "^4.1.1"
+>>>>>>> a296013c9a02bd5606301c06466f2574fd966274
   },
   "devDependencies": {
     "eslint": "8.23.1",
