@@ -3,6 +3,7 @@ import useStore from '../lib/store';
 import CountVisual from '../components/countVisual';
 import CountInput from '../components/countInput';
 import Graph from '../components/graph';
+import HorizontalBar from '../components/horizontalBar';
 
 export default function Home() {
 
@@ -23,6 +24,7 @@ export default function Home() {
       }} />
       <CountVisual />
       <CountInput setValue={value => cono} />
+      <HorizontalBar value={count} max={10} label="count" />
     </div>
   )
 }

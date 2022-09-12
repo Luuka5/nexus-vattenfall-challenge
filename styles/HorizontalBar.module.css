@@ -1,0 +1,14 @@
+
+.container {
+  align-items: center;
+}
+
+.barBackground {
+  height: 2em;
+  flex-grow: 1;
+}
+
+.bar {
+  background-color: #0f0;
+  height: 100%;
+}
