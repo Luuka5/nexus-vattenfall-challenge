@@ -1,12 +1,10 @@
 import React, { useState} from 'react';
 
-const RangeSlider = () => {
-    const [rangeval, setRangeval] = useState(null);
+const RangeSlider = ({setRangevalue}) => {
 
     return (
         <div>
-            <input type="range" min="0" onChange={(event) => setRangeval(event.target.value)} />
-            <h4>Values is:{rangeval}</h4>
+            <input type="range" min="0" onChange={(event) => setRangevalue(event.target.value)} />
         </div>
     );
 };
