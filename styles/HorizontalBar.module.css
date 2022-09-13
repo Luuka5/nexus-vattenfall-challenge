@@ -12,4 +12,5 @@
 .bar {
   background-color: #0f0;
   height: 100%;
+  border-radius: 100px;
 }
