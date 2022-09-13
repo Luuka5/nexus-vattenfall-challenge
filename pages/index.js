@@ -1,7 +1,7 @@
 import ParallaxEffect from '../components/parallaxEffect';
-import MultipleChoice from '../components/multipleChoice';
 import GraphSection from '../components/GraphSection';
 import ChartSection from '../components/ChartSection';
+import SelectEnergyType from '../components/SelectEnergyType';
 
 
 export default function Home() {
@@ -9,12 +9,7 @@ export default function Home() {
   return (
     <ParallaxEffect heading="Parallax effect">
       <GraphSection />
-      
-      <MultipleChoice buttons={[
-        { text: 'Aurinko Energia', value: 'solar' },
-        { text: 'Tuulivoima', value: 'wind' },
-      ]} />
-    
+      <SelectEnergyType />
       <ChartSection />
 
     </ParallaxEffect>
