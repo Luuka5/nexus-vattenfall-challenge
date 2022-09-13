@@ -3,10 +3,11 @@
 export default function ParallaxEffect({ children, heading }) {
   return (
     <>
-      <div class="container">
-        <div class="content">
+      <div className="container">
+        <div className="content">
           {children}
         </div>
+        <div className="footer"></div> 
       </div>
       <header>
         <h1 id="page_title">{heading}</h1>
