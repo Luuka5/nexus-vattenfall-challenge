@@ -5,7 +5,7 @@ export default function BulletPoints() {
 
   return (
     <ul>
-      {bulletPoints.map(point => <li>{point}</li>)}
+      {bulletPoints.map((point, i) => <li key={i} >{point}</li>)}
     </ul>
   );
 }
