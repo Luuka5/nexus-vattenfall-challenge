@@ -9,6 +9,7 @@ export default function GraphSection() {
   const setHouseSize = useStore(state => state.setHouseSize);
   const houseSize = useStore(state => state.houseSize);
   const people = useStore(state => state.people);
+  const energyConsumption = useStore(state => state.energyConsumption);
 
   return (<>
     <Graph lines={[
@@ -22,6 +23,7 @@ export default function GraphSection() {
         scaleY: 0.001,
       }} />
       <p>House size: {houseSize}</p>
+      <p>Energy consumpion: {Math.round(energyConsumption)} kWh</p>
       <RangeSlider setRangevalue={value => setHouseSize(value)} max={300} />
   </>);
 }

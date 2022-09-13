@@ -13,6 +13,5 @@ export default function SelectEnergyType() {
       { text: 'Nuclear', value: 'nuclear' },
       { text: 'Hydro', value: 'hydro' },
     ]} />
-    <p>{energyType}</p>
     </>);
 }
