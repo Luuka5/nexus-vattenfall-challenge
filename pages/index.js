@@ -9,15 +9,10 @@ import Head from 'next/Head'
 export default function Home() {
   
   return (
-<<<<<<< HEAD
-    <ParallaxEffect heading="Vattenfall:
-    Visualizing the change">
-=======
-    <ParallaxEffect heading="Parallax effect">
+    <ParallaxEffect heading={<>Vattenfall:<br/>Visualizing the change</>}>
       <Head>
         <title>Visualizing the change</title>
       </Head>
->>>>>>> 0fa898b79f24a6d9c6def5510a6ef6d4132a656a
       <GraphSection />
       <SelectEnergyType />
       <ChartSection />
