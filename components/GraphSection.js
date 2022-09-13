@@ -22,8 +22,18 @@ export default function GraphSection() {
         scaleX: 20,
         scaleY: 0.001,
       }} />
-      <p>House size: {houseSize}</p>
-      <p>Energy consumpion: {Math.round(energyConsumption)} kWh</p>
+      <style>{`
+      .houseInfo {
+        font-size: 150%;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      `}</style>
+      <div className='houseInfo'>
+        <p>House size: {houseSize}</p>
+        <p>Energy consumpion: {Math.round(energyConsumption)} kWh</p>
+      </div>
       <RangeSlider setRangevalue={value => setHouseSize(value)} max={300} />
   </>);
 }

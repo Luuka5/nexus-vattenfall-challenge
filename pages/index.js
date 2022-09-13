@@ -17,6 +17,7 @@ export default function Home() {
       <SelectEnergyType />
       <ChartSection />
       <BulletPoints />
+      <h2 style={{ paddingBottom: '2rem', fontSize: '160%' }}>Suggested energy plan:</h2>
       <SuggestedPlan />
     </ParallaxEffect>
   )
