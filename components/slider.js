@@ -1,12 +1,11 @@
-import React, { useState} from 'react';
 
-const RangeSlider = ({setRangevalue}) => {
+import styles from '../styles/slider.module.css';
+
+export default function({ setRangevalue }) {
 
     return (
-        <div>
-            <input type="range" min="0" onChange={(event) => setRangevalue(event.target.value)} />
+        <div className={styles.container}>
+            <input className={styles.slider} type="range" min="0" onChange={(event) => setRangevalue(event.target.value)} />
         </div>
     );
 };
-
-export default RangeSlider;

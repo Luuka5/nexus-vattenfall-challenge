@@ -126,6 +126,7 @@ header * {
 .content > div {
   max-width: 50rem;
   flex-grow: 1;
+  width: 100%;
 }
 
 .text{
