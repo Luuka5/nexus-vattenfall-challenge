@@ -10,10 +10,11 @@ export default function ChartSection() {
   return (<>
     <HorizontalBar label={(
       <>CO<sup>2</sup> Emissions of {energyType} energy</>
-    )} sliderValue={Math.round(co2emissions)} max={3000} />
+    )} sliderValue={Math.round(co2emissions)} max={3000} unit="kg/year" />
     <HorizontalBar label={(
       <>CO<sup>2</sup> Emissions of Coal</>
-    )} sliderValue={Math.round(coalEmissions)} max={3000} />
-    <HorizontalBar label="Price" sliderValue={Math.round(price)} max={1300} />
+    )} sliderValue={Math.round(coalEmissions)} max={3000} unit="kg/year"/>
+    <HorizontalBar label="Price" sliderValue={Math.round(price)} max={1300} unit="€/year" />
+    <p>all units are per one year </p>
   </>)
 }
