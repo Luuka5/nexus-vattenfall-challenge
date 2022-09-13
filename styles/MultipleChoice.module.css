@@ -8,4 +8,13 @@
 
 .button {
   padding: 0.3rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.button:focus {
+  font-size: 1.7rem;
+  background-color: #898c8b;
+  border: none;
 }

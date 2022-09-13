@@ -9,7 +9,8 @@ import { SuggestedPlan } from '../components/SuggestedPlan';
 export default function Home() {
   
   return (
-    <ParallaxEffect heading="Parallax effect">
+    <ParallaxEffect heading="Vattenfall:
+    Visualizing the change">
       <GraphSection />
       <SelectEnergyType />
       <ChartSection />

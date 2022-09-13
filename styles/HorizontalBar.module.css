@@ -2,10 +2,11 @@
 .container {
   align-items: center;
   overflow: hidden;
+  font-size: 2vw;
 }
 
 .barBackground {
-  height: 2em;
+  height: 3rem;
   flex-grow: 1;
 }
 
