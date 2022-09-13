@@ -1,7 +1,7 @@
 import useStore from "../lib/store";
 
 export default function CountVisual() {
-  const count = useStore(state => state.count);
+  const count =  useStore(state => state.count);
 
   return (
     <div style={{

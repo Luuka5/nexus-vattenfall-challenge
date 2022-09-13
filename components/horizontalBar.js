@@ -8,7 +8,7 @@ export default function HorizontalBar({ label, value, max, unit }) {
       </div>
       <div className={styles.barBackground}>
         <div className={styles.bar} style={{
-          width: ((value * 100.0) / max)+'%'
+          width: (Math.min(value * 100.0, 100) / max)+'%'
         }} />
       </div>
     </div>
