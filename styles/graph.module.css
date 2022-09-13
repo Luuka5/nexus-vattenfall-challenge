@@ -1,7 +1,7 @@
 
 .graph > p {
   position: absolute;
-  width: 7rem;
+  width: 6rem;
 }
 
 .graph {
@@ -9,6 +9,6 @@
 }
 
 .container {
-  padding-left: 7rem;
+  padding-left: 4rem;
   padding-bottom: 3rem;
 }
