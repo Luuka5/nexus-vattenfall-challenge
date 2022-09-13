@@ -1,0 +1,10 @@
+
+.list {
+  padding: 3rem 0.3rem;
+  max-width: 45rem;
+}
+
+.list > * {
+  text-align: left;
+  font-size: 120%;
+}
