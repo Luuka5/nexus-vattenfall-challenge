@@ -5,6 +5,7 @@
 }
 
 .list > * {
+  padding: 0.4rem 0;
   text-align: left;
   font-size: 120%;
 }
