@@ -8,7 +8,7 @@ export default function ChartSection() {
   return (<>
     <HorizontalBar label={(
       <>CO<sup>2</sup> Emissions</>
-    )} sliderValue={co2emissions} max={100} />
-    <HorizontalBar label="Price" sliderValue={price} max={10} />
+    )} sliderValue={co2emissions} max={1000} />
+    <HorizontalBar label="Price" sliderValue={price} max={500} />
   </>)
 }

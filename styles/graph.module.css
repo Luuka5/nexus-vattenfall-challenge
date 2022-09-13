@@ -1,1 +1,14 @@
 
+.graph > p {
+  position: absolute;
+  width: 7rem;
+}
+
+.graph {
+  position: relative;
+}
+
+.container {
+  padding-left: 7rem;
+  padding-bottom: 3rem;
+}

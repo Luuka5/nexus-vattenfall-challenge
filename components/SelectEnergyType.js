@@ -8,8 +8,10 @@ export default function SelectEnergyType() {
 
   return (<>
     <MultipleChoice value={energyType} setValue={value => setEnergyType(value)} buttons={[
-      { text: 'Aurinko Energia', value: 'solar' },
-      { text: 'Tuulivoima', value: 'wind' },
+      { text: 'Solar', value: 'solar' },
+      { text: 'Wind', value: 'wind' },
+      { text: 'Nuclear', value: 'nuclear' },
+      { text: 'Hydro', value: 'hydro' },
     ]} />
     <p>{energyType}</p>
     </>);
