@@ -1,6 +1,7 @@
 
 .container {
   align-items: center;
+  overflow: hidden;
 }
 
 .barBackground {

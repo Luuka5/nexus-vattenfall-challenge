@@ -3,6 +3,7 @@ import GraphSection from '../components/GraphSection';
 import ChartSection from '../components/ChartSection';
 import SelectEnergyType from '../components/SelectEnergyType';
 import BulletPoints from '../components/Info';
+import { SuggestedPlan } from '../components/SuggestedPlan';
 
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
       <SelectEnergyType />
       <ChartSection />
       <BulletPoints />
-      
+      <SuggestedPlan />
     </ParallaxEffect>
   )
 }
